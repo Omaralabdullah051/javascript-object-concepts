@@ -17,12 +17,12 @@ const kibria = {
         console.log(this);
         return this.money;
     },
-    //In an object method,this refers to the object(here kibria)when the method is a normal function(even an inner function is an arrow function )
+    //In an object method,this refers to the object(here kibria)when the method is a regular function(even an inner function is an arrow function )
     treatDeyInside: function () {
         const myArrow = () => console.log(this);
         myArrow();
     }
-    //so,the at the end,we clearly say that,In an object method,this refers to the object.because we cannot use arrow function as method.
+    //so,at the end,we clearly say that,In an object method,this refers to the object.because we cannot use arrow function as method.
 };
 const heroBalam = {
     id: 102,
@@ -35,3 +35,5 @@ const heroBalam = {
 function add() {
     console.log(this);
 }
+
+//In the html event handler,this refers to the html element that receive the event//example in index.html
