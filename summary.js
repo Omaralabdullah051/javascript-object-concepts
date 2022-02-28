@@ -43,4 +43,4 @@ pen.writePoem.call(a, 10);
 
 pen.writePoem.apply(a, [10]);
 
-//this is an execution context
+

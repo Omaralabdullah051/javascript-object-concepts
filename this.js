@@ -1,4 +1,4 @@
-//this is an execution context.this refers to the current object.
+// .this refers to the current object.
 
 //Alone, this refers to the global object(window)
 // console.log(this);
